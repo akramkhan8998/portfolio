@@ -22,7 +22,7 @@
   top: 13px;
 }
 
-.card:hover {
+.cards:hover {
   border: 4px solid rgba(0, 0, 255, 0.66) !important;
   transition: 0.3s ease-in-out;
 }
@@ -153,6 +153,41 @@ section .sec-img {
 @media (max-width: 767px) {
   .gtco-testimonials {
     margin-top: 20px;
+  }
+  .t-tip {
+    margin: 20px 0;
+  }
+  .t-tip:after {
+    display: none;
+  }
+  .sec-wrap:last-child {
+    margin-top: 90px;
+  }
+  .num.d-flex {
+    display: block !important;
+  }
+  .num.d-flex .w-100 {
+    width: 50% !important;
+    float: left;
+  }
+  .course.d-flex {
+    display: block !important;
+  }
+  .course .w-100 {
+    width: 33.333% !important;
+    float: left;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .f-logo {
+    justify-content: center;
+  }
+  section .row {
+    flex-direction: column-reverse;
+  }
+  .btn {
+    font-size: 12px;
   }
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
