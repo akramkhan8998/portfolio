@@ -189,6 +189,10 @@ section .sec-img {
   .btn {
     font-size: 12px;
   }
+  .navbar-toggler {
+    color: blue;
+    background-color: black;
+  }
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
   outline: 0;
